@@ -1,0 +1,43 @@
+{
+  "batch_sast_config_example": [
+    {
+      "project_name": "web-frontend",
+      "sast_category": "sonar",
+      "files": [
+        "/path/to/sonar-report.pdf",
+        "/path/to/sonar-details.json"
+      ],
+      "scan_date": "2024-01-15",
+      "additional_info": {
+        "扫描类型": "全量扫描",
+        "代码行数": "50000",
+        "问题数量": "25"
+      }
+    },
+    {
+      "project_name": "api-backend",
+      "sast_category": "checkmarx",
+      "files": [
+        "/path/to/checkmarx-report.pdf"
+      ],
+      "scan_date": "2024-01-15",
+      "additional_info": {
+        "扫描类型": "增量扫描",
+        "漏洞等级": "High: 5, Medium: 12, Low: 8"
+      }
+    },
+    {
+      "project_name": "mobile-app",
+      "sast_category": "fortify",
+      "files": [
+        "/path/to/fortify-report.pdf",
+        "/path/to/fortify-summary.html"
+      ],
+      "scan_date": "2024-01-14",
+      "additional_info": {
+        "扫描版本": "v2.1.0",
+        "关键漏洞": "3个"
+      }
+    }
+  ]
+}

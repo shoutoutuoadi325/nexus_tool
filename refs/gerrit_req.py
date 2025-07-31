@@ -481,7 +481,7 @@ if __name__ == '__main__':
     # res = obj.create_project('Access/ICDC', parent='All-Projects', permissions_only=True)
     # print(res)
 
-    res = obj.remove_from_group('fangzhanhong@hozonauto.com')
+    res = obj.remove_from_group('example@example.com')
     print(res)
 
     # print(obj.add_group_members('Administrators', ['qianhui@hozonauto.com']))

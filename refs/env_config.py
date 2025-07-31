@@ -18,12 +18,12 @@ class EnvConfig(object):
         'root_url': 'https://open.feishu.cn',
         'accounts': {
             'feishu_PkgUpload': {
-                'app_id': 'cli_a205ac9efcbad00d',
-                'app_secret': 'QLB2BBUCqtFAVQLX5QXAi2yAI60ps5Fc'
+                'app_id': 'cli_aaaaaaaaaaaaaaaa',
+                'app_secret': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
             },
             'feishu_TianGong': {
-                'app_id': 'cli_a356c798817e900e',
-                'app_secret': 'QxtLrIhzDNNCqwUeYXFXVdGsFWczRiWf'
+                'app_id': 'cli_bbbbbbbbbbbbbbb',
+                'app_secret': 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
             }
         }
     }
@@ -63,24 +63,24 @@ class EnvConfig(object):
         'root_url': 'http://gerrit.archermind.com.cn:8080',
         'accounts': {
             'svw-chencheng': {
-                'login_pwd': 'P@ssw0rd!123',
-                'http_pwd': 'jG60F4d6J/KuNiUMJKlfXvZwpyS4h8zex+UXLI0Psg'
+                'login_pwd': '',
+                'http_pwd': ''
             },
             'scm-prebuild': {
-                'login_pwd': 'P@ssw0rd!123',
-                'http_pwd': 'BcL3ASwIy+f4SQ3Yin+yXi5xSZVWPgB5dEAOhoBVWw'
+                'login_pwd': '',
+                'http_pwd': ''
             },
             'scm-coverity': {
-                'login_pwd': 'LOkXRQan',
-                'http_pwd': 'u6Ih6h7vmDPQxKTAHCx7zgpjCHGAE5DwoKa+YD33cg'
+                'login_pwd': '',
+                'http_pwd': ''
             },
             'scm-sonar': {
-                'login_pwd': 'x8HKyUXP',
-                'http_pwd': 'O+mpzm1/2KxOsfjcGj/3vXMvIzmJa/cyvGh2+MCozQ'
+                'login_pwd': '',
+                'http_pwd': ''
             },
             'scm-whitelist': {
-                'login_pwd': 'P@ssw0rd!123',
-                'http_pwd': 'lMM488dHK0vqzliYKNKvnEiuCdqy42qz5PpDEh37/Q'
+                'login_pwd': '',
+                'http_pwd': ''
             }
 
         }

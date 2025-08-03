@@ -62,7 +62,7 @@ class EnvConfig(object):
         'domain': 'gerrit.archermind.com.cn',
         'root_url': 'http://gerrit.archermind.com.cn:8080',
         'accounts': {
-            'svw-chencheng': {
+            'svw-user': {
                 'login_pwd': '',
                 'http_pwd': ''
             },
@@ -140,7 +140,7 @@ class EnvConfig(object):
             'checkmarx': 'Checkmarx报告', 
             'fortify': 'Fortify报告',
             'coverity': 'Coverity报告',
-            'veracode': 'Veracode报告',
+            'veracode': 'Veracode报告',    
             'generic': '通用SAST报告'
         }
     }
